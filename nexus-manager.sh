@@ -12,7 +12,7 @@ PROGRAM_DIR="$NEXUS_HOME/src/generated"
 ARCH=$(uname -m)
 OS=$(uname -s)
 REPO_BASE="https://github.com/nexus-xyz/network-api/raw/refs/tags/0.4.2/clients/cli"
-DEFAULT_PROVER_ID="DF3y87vOThV2yAE6d133t0YYSy03"
+DEFAULT_PROVER_ID="PRFMM0LNEsM96s9hvLqi6d7qEXa2"
 
 check_openssl_version() {
     if [ "$OS" = "Linux" ]; then
